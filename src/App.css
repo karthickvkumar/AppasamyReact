@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.app {
+  padding: 10px;
+}
+
+.app > * + * {
+  margin-top: 1rem
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+  font-weight: 600;
+  color: white;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: green;
+  font-weight: 600;
+  color: white;
+}
